@@ -10,7 +10,7 @@ It is intended for PDF files that have text that doesn't follow the left to righ
 
 pip install easyocr-unstructured
 
-
+```
 import easyocr_unstructured
 
 # Initialize the EasyOCR Unstructured object
@@ -22,6 +22,7 @@ result = easyocr.invoke('/path/to/your_pdf_file.pdf')
 #result will be a list of lists containing strings
 from pprint import pprint as pp
 pp(result)
+```
 
 ## Example Output
 
@@ -38,7 +39,7 @@ The output will look something like this:
 
 ### Prerequisites
 
--Python 3.12 +
+- Python 3.12 +
 
 ### Installing
 
@@ -46,10 +47,12 @@ pip install easyocr-unstructured
 
 ## Usage
 
+```
 import easyocr_unstructured
 
 easyocr = EasyocrUnstructured()
 result = easyocr.invoke('/path/to/your_pdf_file.pdf')
+```
 
 ## Running the tests
 
@@ -57,12 +60,12 @@ No tests yet
 
 ## Built With
 
--Wing Pro
--Python 3.12
--numpy
--easyocr
--pdf2image
--hashlib
+- Wing Pro
+- Python 3.12
+- numpy
+- easyocr
+- pdf2image
+- hashlib
 
 ## Contributing
 
