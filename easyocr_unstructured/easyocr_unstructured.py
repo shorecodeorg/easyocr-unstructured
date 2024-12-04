@@ -10,23 +10,23 @@ import pdf2image
 import hashlib
 import json
 import os
-from eut_filepaths import Files
-from eut_logging import set_logging
 
 
 class EasyocrUnstructured:
     def __init__(self):        
-        files = Files()
-        filepaths = files.get_files_list()
-        log_fp = filepaths[0]
         # directory where files are saved to prevent hte slow process of scanning hte pdfs if possible
-        self.output_dir = filepaths[1]
+        self.output_dir = os.path.join('tmp', 'easyocr_unstructured')
+        
+        if not os.path.exists(self.output_dir):
+            new_dir = '.'
+            for entry in os.path.split(self.output_dir):                
+                new_dir = os.path.join(new_dir, entry)
+                if not os.path.exists(new_dir):
+                    os.mkdir(new_dir)
         
         # Delete parsed PDF json files older than 7 days in output_dir
         self.delete_old_files(self.output_dir, days=7)        
-        
-        self.logger = set_logging('eut_main', log_fp)
-    
+
     def delete_old_files(self, directory, days):
         """
         Delete files in the specified directory that are older than a specified number of days.

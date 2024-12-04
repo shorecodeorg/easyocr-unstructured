@@ -1,6 +1,7 @@
 annotated-types==0.7.0
 e==1.4.5
 easyocr==1.7.2
+-e git+ssh://git@github.com/shorecodeorg/easyocr-unstructured.git@10bfdbb7adb8b7b96236a0f8594f3817fd606e89#egg=easyocr_unstructured&subdirectory=easyocr_unstructured
 filelock==3.16.1
 fsspec==2024.10.0
 imageio==2.36.1

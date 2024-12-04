@@ -1,16 +1,3 @@
-Metadata-Version: 2.1
-Name: easyocr-unstructured
-Version: 1.0.9
-Summary: Parse unstructured text from PDFs
-Home-page: https://github.com/shorecodeorg/easyocr-unstructured
-Author: Kevin Fink
-Author-email: kevin@shorecode.org
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.8
-Description-Content-Type: text/markdown
-
 
 # EasyOCR Unstructured
 
