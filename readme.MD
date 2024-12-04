@@ -1,4 +1,11 @@
 
+# EasyOCR Unstructured
+
+EasyOCR Unstructured is a powerful library for Optical Character Recognition (OCR) that can extract text from PDFS, then group the text based on proximity.
+
+It is intended for PDF files that have text that doesn't follow the left to right top to bottom standard of document writing.
+
+
 ## Getting Started
 
 pip install easyocr-unstructured
