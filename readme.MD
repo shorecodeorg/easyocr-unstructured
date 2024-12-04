@@ -13,14 +13,32 @@ pip install easyocr-unstructured
 
 import easyocr_unstructured
 
+# Initialize the EasyOCR Unstructured object
 easyocr = EasyocrUnstructured()
+
+# Invoke the OCR process on your PDF file
 result = easyocr.invoke('/path/to/your_pdf_file.pdf')
 
 #result will be a list of lists containing strings
+from pprint import pprint as pp
+pp(result)
+
+## Example Output
+
+The output will look something like this:
+
+```python
+[
+    ["This is the piece of text. Nothing near it"],
+    ["This is the second piece of text.", "This is the third piece of text that was close to the second"],
+    ["This is the fourth piece of text. Nothing near it"],
+    ...
+]
+```
 
 ### Prerequisites
 
-Python 3.12 +
+-Python 3.12 +
 
 ### Installing
 
@@ -39,12 +57,12 @@ No tests yet
 
 ## Built With
 
-Wing Pro
-Python 3.12
-numpy
-easyocr
-pdf2image
-hashlib
+-Wing Pro
+-Python 3.12
+-numpy
+-easyocr
+-pdf2image
+-hashlib
 
 ## Contributing
 
