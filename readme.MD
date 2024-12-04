@@ -1,23 +1,55 @@
 
 ## Getting Started
 
+pip install easyocr-unstructured
+
+
+import easyocr_unstructured
+
+easyocr = EasyocrUnstructured()
+result = easyocr.invoke('/path/to/your_pdf_file.pdf')
+
+#result will be a list of lists containing strings
+
 ### Prerequisites
+
+Python 3.12 +
 
 ### Installing
 
+pip install easyocr-unstructured
+
 ## Usage
+
+import easyocr_unstructured
+
+easyocr = EasyocrUnstructured()
+result = easyocr.invoke('/path/to/your_pdf_file.pdf')
 
 ## Running the tests
 
+No tests yet
+
 ## Built With
+
+Wing Pro
+Python 3.12
+numpy
+easyocr
+pdf2image
+hashlib
 
 ## Contributing
 
+Please do, any sensible and safe change will be added!
+
 ## Authors
+
+Kevin Fink
 
 ## License
 
-Please view the license.txt file in the same directory as this file.
+MIT
 
 ## Acknowledgments
 
