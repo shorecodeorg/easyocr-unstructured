@@ -1,0 +1,13 @@
+setup.py
+easyocr_unstructured.egg-info/PKG-INFO
+easyocr_unstructured.egg-info/SOURCES.txt
+easyocr_unstructured.egg-info/dependency_links.txt
+easyocr_unstructured.egg-info/top_level.txt
+src/__init__.py
+src/debug_output.py
+src/easyocr_unstructured.py
+src/eut_filepaths.py
+src/eut_logging.py
+src/setup.py
+tests/__init__.py
+tests/conftest.py

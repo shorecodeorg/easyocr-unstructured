@@ -1,0 +1,8 @@
+__init__
+data
+debug_output
+easyocr_unstructured
+eut_filepaths
+eut_logging
+logging
+setup
