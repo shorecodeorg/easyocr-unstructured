@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='easyocr-unstructured',
-    version='1.1.4',
+    version='1.1.6',
     author='Kevin Fink',
     author_email='kevin@shorecode.org',
     description='Parse unstructured text from PDFs',
@@ -17,4 +17,9 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.8',  # Specify your Python version requirement
+    install_requires=[
+        'numpy',        # For numerical operations
+        'easyocr',      # For Optical Character Recognition
+        'pdf2image',    # For converting PDFs to images
+    ],    
 )
