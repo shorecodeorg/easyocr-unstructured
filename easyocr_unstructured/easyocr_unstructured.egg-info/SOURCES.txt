@@ -1,0 +1,7 @@
+easyocr_unstructured.py
+setup.py
+easyocr_unstructured.egg-info/PKG-INFO
+easyocr_unstructured.egg-info/SOURCES.txt
+easyocr_unstructured.egg-info/dependency_links.txt
+easyocr_unstructured.egg-info/requires.txt
+easyocr_unstructured.egg-info/top_level.txt

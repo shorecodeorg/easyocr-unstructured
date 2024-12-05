@@ -1,0 +1,3 @@
+easyocr
+numpy
+pdf2image
